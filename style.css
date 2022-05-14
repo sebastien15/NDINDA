@@ -54,6 +54,7 @@ p{
     font-weight: 600;
     color: #AE6B3F;
 }
+
 .landing-section{
     width: 100%;
     padding-inline: 8%;
@@ -62,10 +63,43 @@ p{
     background-repeat: no-repeat;
     background-position: center;
 }
+.nav{
+    display: flex;
+    padding-top: 45px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+    height:auto;
+}
+.nav-separator{
+    width: 50%;
+}
+.nav-separator img{
+    width: 100%;
+}
+.nav-links{
+    display:flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.nav-links a{
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AE6B3F;
+    text-decoration: none;
 
+}   
 .landing-main{
     height: 100%;
-    padding-right: 40%;
+    padding-right: 35%;
+    padding-left: 5%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -137,8 +171,40 @@ p{
 }
 
 
-/* our sercices */
+/* projects section  */
+.projects-section{
+    min-height: 100vh;
+    background-image: url('/assets/projects-bg.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.projects-section .header{
 
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.project-1{
+    width: 409px;
+    height:auto;
+}
+.project-2{
+    width: 388px;
+    height:auto;
+}
+.project-3{
+    width: 366px;
+    height:auto;
+}
+.projects{
+    display: flex;
+}
+/* our sercices */
+.our-service_section{
+    padding: 130px 0 150px 0;
+}
 .our-service_header{
     text-align: center;
 }
@@ -163,4 +229,24 @@ p{
 }
 .our-service_single h4{
     margin-block: 20px;
+}
+
+/* footer */
+
+.footer{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 55px;
+    gap: 10px;
+}
+.footer h3, .footer h3 > *{
+    color: #fff;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.9702px;
+    line-height: 36px;
 }
